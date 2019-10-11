@@ -45,11 +45,12 @@ export default class Register extends Component {
                                              Name
                                          </label>
                                          <div className="col-md-6">
-                                             <input type="text"
-                                                    name="name" 
-                                                    placeholder="name"
-                                                    required 
-                                                    onChange={e => this.change(e)}
+                                             <input 
+                                                 type="text"
+                                                 name="name" 
+                                                 placeholder="name"
+                                                 required 
+                                                 onChange={e => this.change(e)}
                                               />
                                          </div>
                                      </div>
@@ -58,11 +59,12 @@ export default class Register extends Component {
                                              Email
                                          </label>
                                          <div className="col-md-6">
-                                             <input type="email"
-                                                    name="email"
-                                                    placeholder="Email"
-                                                    required 
-                                                    onChange={e => this.change(e)}
+                                             <input 
+                                                 type="email"
+                                                 name="email"
+                                                 placeholder="Email"
+                                                 required 
+                                                 onChange={e => this.change(e)}
                                               />
                                          </div>
                                      </div>
@@ -71,11 +73,12 @@ export default class Register extends Component {
                                              Password
                                          </label>
                                          <div className="col-md-6">
-                                             <input type="password"
-                                                    name="password"
-                                                    placeholder="Password" 
-                                                    required 
-                                                    onChange={e => this.change(e)}
+                                             <input 
+                                                 type="password"
+                                                 name="password"
+                                                 placeholder="Password" 
+                                                 required 
+                                                 onChange={e => this.change(e)}
                                               />
                                          </div>
                                      </div>

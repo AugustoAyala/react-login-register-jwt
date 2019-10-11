@@ -35,19 +35,35 @@ export default class Login extends Component {
                     <div className="row justify-content-center">
                         <div className="col-md-8">
                             <div className="card">
-                                <div className="card-header">Login</div>
+                                <div className="card-header">
+                                    Login
+                                </div>
                                 <div className="card-body">
                                   <form  onSubmit={this.onSubmit}>
                                       <div className="form-group row">
-                                          <label className="col-md-4 col-form-label text-md-right">Email</label>
+                                          <label className="col-md-4 col-form-label text-md-right">
+                                              Email
+                                          </label>
                                           <div className="col-md-6">
-                                              <input type="email" name="email" placeholder="Email" required onChange={e => this.change(e)}/>
+                                              <input type="email"
+                                                     name="email"
+                                                     placeholder="Email" 
+                                                     required 
+                                                     onChange={e => this.change(e)}
+                                               />
                                           </div>
                                       </div>
                                       <div className="form-group row">
-                                          <label className="col-md-4 col-form-label text-md-right">Password</label>
+                                          <label className="col-md-4 col-form-label text-md-right">
+                                              Password
+                                          </label>
                                           <div className="col-md-6">
-                                              <input type="password" name="password" placeholder="Password" required onChange={e => this.change(e)}/>
+                                              <input type="password"
+                                                     name="password"
+                                                     placeholder="Password"
+                                                     required
+                                                     onChange={e => this.change(e)}
+                                              />
                                           </div>
                                       </div>
                                       <div className="form-group row mb-0">

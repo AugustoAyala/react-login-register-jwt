@@ -45,11 +45,12 @@ export default class Login extends Component {
                                               Email
                                           </label>
                                           <div className="col-md-6">
-                                              <input type="email"
-                                                     name="email"
-                                                     placeholder="Email" 
-                                                     required 
-                                                     onChange={e => this.change(e)}
+                                              <input 
+                                                  type="email"
+                                                  name="email"
+                                                  placeholder="Email" 
+                                                  required 
+                                                  onChange={e => this.change(e)}
                                                />
                                           </div>
                                       </div>
@@ -58,11 +59,12 @@ export default class Login extends Component {
                                               Password
                                           </label>
                                           <div className="col-md-6">
-                                              <input type="password"
-                                                     name="password"
-                                                     placeholder="Password"
-                                                     required
-                                                     onChange={e => this.change(e)}
+                                              <input 
+                                                  type="password"
+                                                  name="password"
+                                                  placeholder="Password"
+                                                  required
+                                                  onChange={e => this.change(e)}
                                               />
                                           </div>
                                       </div>
